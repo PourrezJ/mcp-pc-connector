@@ -1,0 +1,9 @@
+{
+  "_doc": "Serveurs MCP locaux (stdio) exposés via ce connecteur sous <nom>__<outil>. enabled:false pour désactiver. Après modif : outil 'upstreams' action=reload.",
+  "blender": {
+    "command": ".venv/Scripts/blender-mcp.exe",
+    "args": [],
+    "env": {"BLENDER_HOST": "localhost", "BLENDER_PORT": "9877", "DISABLE_TELEMETRY": "true"},
+    "enabled": true
+  }
+}

@@ -1,0 +1,16 @@
+# Secrets
+.env
+
+# Environnement virtuel
+.venv/
+
+# Cache Python
+__pycache__/
+*.pyc
+
+# Reliquats de patch
+*.rej
+*.orig
+
+*.whl
+_test.txt

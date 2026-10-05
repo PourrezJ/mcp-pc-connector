@@ -1,0 +1,5 @@
+# NB: mcp 2.x a supprimé mcp.server.fastmcp (renommé MCPServer).
+# Ce serveur est basé sur mcp.server.fastmcp.FastMCP -> on reste sur la branche 1.x.
+mcp[cli]>=1.10,<2
+uvicorn>=0.30
+starlette>=0.37
